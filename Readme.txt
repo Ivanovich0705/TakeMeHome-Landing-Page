@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Web Applications - Take Me Home - Landing Page
 
-Template Name: SoftLand
-Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Ivan Moran
