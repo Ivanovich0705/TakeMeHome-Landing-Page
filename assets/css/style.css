@@ -312,6 +312,10 @@ section {
   color: #fff;
 }
 
+.cta-section img{
+  height: 80px;
+}
+
 .cta-section h2 {
   color: #fff;
   font-size: 3rem;
@@ -336,6 +340,7 @@ section {
 }
 
 /* Contact Form */
+
 .form-control {
   height: 48px;
   border-radius: 0;
@@ -356,7 +361,24 @@ section {
   font-weight: 400;
   font-size: 13px;
 }
-
+.section iframe{
+  position: relative; 
+  top: -23%;
+}
+.list-unstyled{
+  position: relative; 
+  top: -23%;
+}
+@media (max-width: 991px) {
+  .section iframe{
+    position: relative; 
+    top: 0%;
+  }
+  .list-unstyled{
+    position: relative; 
+    top: 0%;
+  }
+}
 .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -611,7 +633,7 @@ section {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   padding: 4px 0;
   line-height: 1;
@@ -627,7 +649,8 @@ section {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  height: 40px;
+  width: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -849,7 +872,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg) no-repeat;
   position: relative;
 }
 
@@ -1086,7 +1109,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 5rem 0 2.5rem 0;
+  padding: 2rem 0 2.5rem 0;
 }
 
 .footer h3 {
@@ -1123,7 +1146,10 @@ section {
   color: #0d1e2d;
   line-height: 0;
 }
-
+.footer-not-index{
+  background: linear-gradient(to right, rgb(39, 70, 133) 0%, rgb(61, 179, 197) 100%);
+  color: #fff;
+}
 .social a span {
   display: inline-block;
   left: 50%;
