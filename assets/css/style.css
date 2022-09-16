@@ -369,8 +369,7 @@ section {
 
 .navbar a:hover,
 .navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
+.navbar .active:focus{
   color: #fff;
 }
 
@@ -661,13 +660,13 @@ section {
   margin-right: 20px;
   color: #4154f1;
 }
-@media (min-width: 768px) {
-  .counts-xp .row{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-} 
+.counts-xp .row{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  width: auto;
+}
 .counts-xp .countxp-img img {
   max-width: 100%;
 }
@@ -752,4 +751,15 @@ section {
   max-height: 400px;
   position: relative;
   left: 20%;
+}
+@media (max-width: 1200px) {
+  .section-us img{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
 }
